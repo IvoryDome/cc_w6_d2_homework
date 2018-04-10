@@ -34,19 +34,19 @@ public class Library {
         return this.bookCollection.remove(0);
     }
 
-    public Book lendBook(Book book) {
-//        for (int i = 0; i < bookCount(); i++) {
-//            if (this.bookCollection.get(i) == book) {
-//                Book bookFound = this.bookCollection.remove(i);
-//            }
-//
+//    public Book lendBook(Book book) {
+////        for (int i = 0; i < bookCount(); i++) {
+////            if (this.bookCollection.get(i) == book) {
+////                Book bookFound = this.bookCollection.remove(i);
+////            }
+////
+////        }
+//        for (Book book_found:bookCollection
+//             ) {
+//            if (book_found == book) return book_found;
 //        }
-        for (Book book_found:bookCollection
-             ) {
-            if (book_found == book) return book_found;
-        }
-        return null;
-    }
+//        return null;
+//    }
 
 
 

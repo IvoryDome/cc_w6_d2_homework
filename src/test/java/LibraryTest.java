@@ -48,14 +48,6 @@ public class LibraryTest {
         assertEquals(1, library2.bookCount());
     }
 
-    @Test
-    public void testWhatIsReturned() {
-        assertEquals(book2, library.lendBook(book2));
-    }
-
-
-
-
 
 
 }
